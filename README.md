@@ -41,7 +41,7 @@ The core of this project's "Route Second" step uses Ant Colony Optimization. Her
 | **Space Complexity** | **Exponential: $O(n \cdot 2^n)$** | **Polynomial: $O(n^2)$** (to store pheromones) |
 | **Scalability** | **Very Poor.** Only feasible for small $n$ (e.g., $n < 20$). | **Very Good.** Scales to hundreds or thousands of cities. |
 
-*Where $n$ is the number of cities, $I$ is the number of iterations, and $A$ is the number of ants.*
+*Where **n** is the number of cities, **I** is the number of iterations, and **A** is the number of ants.*
 
 ### Key Takeaway:
 
